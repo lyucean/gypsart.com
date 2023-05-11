@@ -6,7 +6,7 @@ services:
     volumes:
       - ./public:/usr/share/nginx/html
     environment:
-      - NGINX_HOST=gypsart.loc
+      - NGINX_HOST=gypsart.com
       - NGINX_INDEX=index.html
       - NGINX_ROOT=/usr/share/nginx/html
       - NGINX_PORT=80
