@@ -3,6 +3,8 @@ version: '3'
 services:
   nginx-gypsart:
     image: nginx:latest
+    container_name: gypsart-nginx
+    hostname: gypsart.com
     volumes:
       - ./public:/usr/share/nginx/html
     environment:
