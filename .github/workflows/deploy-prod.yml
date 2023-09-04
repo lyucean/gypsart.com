@@ -49,7 +49,7 @@ jobs:
           script: |
             cd /var/www/gypsart.com/
             docker-compose up -d
-            docker ps
+            docker-compose ps
 
   test:
     runs-on: ubuntu-latest
