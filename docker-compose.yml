@@ -2,6 +2,7 @@ version: '3'
 
 services:
   nginx-gypsart:
+    restart: unless-stopped
     image: nginx:latest
     container_name: gypsart-nginx
     hostname: gypsart.com
